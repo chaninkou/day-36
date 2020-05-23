@@ -58,7 +58,7 @@ public class FindAllUpperLowerCasePerFunction {
         queue.offer(S);
         
         for(int i = 0; i < S.length(); i++){
-        	// Skip to digits
+        	// Skip digits
             if(Character.isDigit(S.charAt(i))){
                 continue;
             }
@@ -71,6 +71,7 @@ public class FindAllUpperLowerCasePerFunction {
                 
                 char[] array = current.toCharArray();
                 
+                // array[i] what be current element we making upper and lower
                 // turn to upper case
                 array[i] = Character.toUpperCase(array[i]);
                 queue.offer(String.valueOf(array));
