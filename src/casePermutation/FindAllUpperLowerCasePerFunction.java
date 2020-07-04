@@ -63,6 +63,7 @@ public class FindAllUpperLowerCasePerFunction {
                 continue;
             }
             
+            // get queue size
             int size = queue.size();
             
             // queue size since one letter have two combinations
