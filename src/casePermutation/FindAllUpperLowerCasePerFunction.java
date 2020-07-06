@@ -34,12 +34,12 @@ public class FindAllUpperLowerCasePerFunction {
             return;
         }
         
-        // Do the lowercase one first
+        // Do the lower case one first
         nums[position] = Character.toLowerCase(nums[position]);
         
         dfs(nums, result, position + 1);
         
-        // Then do the uppercase after
+        // Then do the upper case after
         nums[position] = Character.toUpperCase(nums[position]);
         
         dfs(nums, result, position + 1);
