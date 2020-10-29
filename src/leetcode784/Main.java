@@ -1,4 +1,4 @@
-package casePermutation;
+package leetcode784;
 
 public class Main {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package casePermutation;
+package leetcode784;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
